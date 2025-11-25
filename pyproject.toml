@@ -1,15 +1,18 @@
 [project]
-name = "ossinsight-quickstart"
-version = "0.1.0"
-description = "Quickstart for using OSS Insight for Open Pulse"
-readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
+  name = "ossinsight-quickstart"
+  version = "0.1.0"
+  description = "Quickstart for using OSS Insight for Open Pulse"
+  readme = "README.md"
+  requires-python = ">=3.10"
+  dependencies = [
     "bokeh>=3.8.1",
     "numpy>=2.2.6",
     "pandas>=2.3.3",
     "pydantic>=2.12.1",
     "requests>=2.32.5",
-]
-
-
+    "adjusttext>=1.3.0",
+    "dotenv>=0.9.9",
+    "matplotlib>=3.10.7",
+    "neo4j>=6.0.2",
+    "networkx>=3.4.2",
+  ]
